@@ -1,13 +1,11 @@
-setuptools>=65.5.0
-wheel
-cmake
-
 Flask==2.3.2
 gunicorn==21.2.0
 opencv-python==4.9.0.80
 numpy==1.24.4
-face_recognition
-dlib==19.24.0
+git+https://github.com/ageitgey/face_recognition.git
+cmake
+setuptools>=65.5.0
+wheel
 Pillow==10.3.0
 Werkzeug==2.3.7
 Jinja2==3.1.3
